@@ -801,10 +801,14 @@ a:hover {
 
 @media (min-width: 768px) {
   .hero-single .hero-title {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }
-
+@media (max-width: 576px) {
+  .hero-single .hero-title {
+    font-size: 1.2rem; /* Ukuran untuk HP kecil */
+  }
+}
 .hero-single .breadcrumb {
   background-color: transparent;
   color: #0078ff;
